@@ -1,0 +1,44 @@
+int main()
+{
+    
+    cout << "Player one is the guesser and player two will be the creator.\n\n";
+    cout << "Hello! What is your name player one?: ";
+    cin >> name1;
+    cout << "How about you player two?: ";
+    cin >> name2;
+    cout << "\n\n" << name1 << " and " << name2 << " Let's play some Hangman!\n\n";
+    HangmanDraw();
+    cout << "\n--INSTRUCTIONS: This is how the players will play.--" << endl;
+    cout << name1 << " will be the GUESSER and " << name2 << " will be the CREATOR of the word!\n\n";
+    while (cout << "Do you wanna swap positions? y/n: " && !(cin >> choice) || (choice != 'y') && (choice != 'n')) {
+        cout << "Input characters y or on only.\n";
+    }
+    if (choice == 'y') {
+        swap (name1,name2);
+        cout << "\nOK! I swapped your positions, " << name1 << " will be the GUESSER and " << name2 << " will be the CREATOR of the word!\n\n";
+    }
+    
+    cout << "\nThe guesser will be given only 3 trials to guess what letter correspond to the word created!\n";
+    cout << "The game continues until the word/phrase (all letters are revealed) -- WINNER!\n";
+    cout << "                         all parts of the hangman are displayed -- LOSER!\n";
+    
+    while (cout << "\n1. Play\n2. Exit\n" && !(cin >> choice1) || (choice1 != 1) && (choice1 != 2)) {
+        cout << "\nPlease put only digits 1 and 2.";
+        if (cin.fail()) {
+            cout << " You did not put an integer type.\n";
+            cin.clear();
+            cin.ignore(1000, '\n');
+        }
+    }
+    switch (choice1) {
+        case 1:
+            Play();
+            break;
+        case 2:
+            Exit();
+            break;
+        default:
+            cout <<"\nInvalid choice, please put only digits 1 and 2.\n";
+    }
+    return 0;
+}
