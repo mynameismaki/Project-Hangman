@@ -1,45 +1,57 @@
 # Project-Hangman-C++
-A Solo Small Game Project Using C++ which has two players where one player thinks of a word and the other player guesses letters within a certain number of guesses. If the guesser is wrong, parts of a hangman are displayed until the guesser guesses the given word by the creator or player two.
+A Solo Small Game Project Using C++ which has two players where one player thinks of a word and the other player guesses letters within a certain number of guesses. If the guesser is wrong, parts of a hangman are displayed until the guesser guesses the given word by the creator or player two. <br><br>
+
+
 
 Output:
 
-**Introduction**
-![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/5c935e4d-0d27-475f-bb14-bfb07e547ef4)
+A. **Introduction**
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/f6ad20a6-2a7b-48cb-b846-66dc91156f8b)
 
 The user was asked if the players want to swap positions (Player one will be guesser and player two will be creator).
+<br><br>
 
 a. If typed y:
- ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/614cfdbd-04e0-4847-85eb-6ec6dd5a522b)
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/0ffd2442-5207-4b5a-828c-33d1277df98a)
+
+The purpose of this code is to make sure there is no confusion who really want to guess and create.
+<br><br>
+
+b.	If typed y, game will continue to Game Menu.<br><br><br><br>
+
+B. **Game Menu**
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/93e3c38d-eef5-437c-9f56-798a1ee40cff)
+
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/a390afee-a568-4873-b2f9-d3983f59b598)
+
+
+a.	If typed yes, game will ask if you want Tagalog or English word, thereafter will ask again the creator to input a word:
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/03d6afe2-37cf-4537-aacd-61c553325f3c)
+
  
- The purpose of this code is to make sure there is no confusion who really want to guess and create.
- 
-b.	If typed y, game will continue to Game Menu.
+b.	If typed no, game will proceed to Gameplay.<br><br><br><br>
 
-
-**Game Menu**
- ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/69198cfa-957b-426a-aae7-85b69374650e)
- ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/e4b1663b-ec48-4ffe-8dc7-55914defb527)
-
-a.	If typed yes, game will ask if you want Tagalog or English word, thereafter will ask again the creator to input a word.
- ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/236e58e6-f09a-4552-bcfc-8c32bdb513eb)
- 
-b.	If typed no, game will proceed to Gameplay.
-
-
-**Gameplay**
- ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/229c7510-4cce-47f5-8980-28b89c936d9d)
+C. **Gameplay**
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/2fdc52cd-0ed8-4ed5-ba70-78720d7febe2)
 
 
 In the gameplay, many blank spaces will be created for the guesser.
-Assuming that the word is stacks the output will be:
+Assuming that the word is stacks the output will show Winner interface.<br><br><br><br>
 
-**Winner:**
+D. **Winner:**
 
- ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/ba2a12b1-0245-4a97-bb95-fa819690ee6a) ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/2ea63707-c8de-43b2-aba5-aecbf94157f4)
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/8a2c1e5e-3fdc-44d4-b837-d4186fc723c1)
 
-**Loser:**
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/a775dbb4-cc41-4602-a17d-9344743f2ffd)
+<br><br><br><br>
 
- ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/794e9106-7a01-4b31-be63-603cf16a805f) ![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/396ca153-39c6-4ff9-848f-8120a45e67d9)
+E. **Loser:**
+
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/bb5b4d81-1a76-4040-8ae7-5187293232b8)
+
+![image](https://github.com/mynameismaki/Project-Hangman/assets/138430122/3a583809-b37c-4746-9a8c-6b8701661b25)
+
+
 
 
 
